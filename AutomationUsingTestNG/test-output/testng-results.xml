@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-12T10:26:47 IST" name="Suite" finished-at="2022-10-12T10:27:01 IST" duration-ms="14369">
+    <groups>
+    </groups>
+    <test started-at="2022-10-12T10:26:47 IST" name="Onileshop" finished-at="2022-10-12T10:27:01 IST" duration-ms="14369">
+      <class name="project.Login">
+        <test-method signature="login()[pri:0, instance:project.Login@4738a206]" started-at="2022-10-12T10:26:47 IST" name="login" finished-at="2022-10-12T10:27:01 IST" duration-ms="14327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- project.Login -->
+    </test> <!-- Onileshop -->
+  </suite> <!-- Suite -->
+</testng-results>

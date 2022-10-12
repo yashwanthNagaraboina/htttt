@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T10:44:49 IST" name="Suite" finished-at="2022-09-28T10:44:49 IST" duration-ms="42">
+    <groups>
+      <group name="Smoke">
+        <method signature="s1.Class2()[pri:0, instance:app.s1@7671cb68]" name="Class2" class="app.s1"/>
+        <method signature="sample1.demo()[pri:0, instance:testpkg.sample1@482bce4f]" name="demo" class="testpkg.sample1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-09-28T10:44:49 IST" name="Test" finished-at="2022-09-28T10:44:49 IST" duration-ms="42">
+      <class name="testpkg.ParamTest2">
+        <test-method signature="m(java.lang.String,int)[pri:0, instance:testpkg.ParamTest2@49dc7102]" started-at="2022-09-28T10:44:49 IST" name="m" data-provider="getdata" finished-at="2022-09-28T10:44:49 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method signature="m(java.lang.String,int)[pri:0, instance:testpkg.ParamTest2@49dc7102]" started-at="2022-09-28T10:44:49 IST" name="m" data-provider="getdata" finished-at="2022-09-28T10:44:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[will]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+        <test-method signature="m(java.lang.String,int)[pri:0, instance:testpkg.ParamTest2@49dc7102]" started-at="2022-09-28T10:44:49 IST" name="m" data-provider="getdata" finished-at="2022-09-28T10:44:49 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[max]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- testpkg.ParamTest2 -->
+      <class name="testpkg.sample1">
+        <test-method signature="demo()[pri:0, instance:testpkg.sample1@482bce4f]" started-at="2022-09-28T10:44:49 IST" name="demo" finished-at="2022-09-28T10:44:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- testpkg.sample1 -->
+      <class name="app.s1">
+        <test-method signature="Class2()[pri:0, instance:app.s1@7671cb68]" started-at="2022-09-28T10:44:49 IST" name="Class2" finished-at="2022-09-28T10:44:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class2 -->
+        <test-method signature="Class()[pri:0, instance:app.s1@7671cb68]" started-at="2022-09-28T10:44:49 IST" name="Class" finished-at="2022-09-28T10:44:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class -->
+      </class> <!-- app.s1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
